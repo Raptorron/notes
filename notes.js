@@ -81,6 +81,19 @@
 //TYPE mkdir src/
 //TYPE touch src/index.js
 //CREATE webpack.config.js
+//TYPE
+  // module.exports = {
+  //   module: {
+  //     rules: [
+  //       {
+  //         test: /\.js/,
+  //         loader: 'babel-loader',
+  //         exclude: /node_modules/
+  //       }
+  //     ]
+  //   }
+  // };
+//IN THE webpack.config.js
 //TYPE npm i babel-loader --save-dev
 //TYPE npm i @babel/core --save-dev
 //got to the package.json folder after the first set of brakets type "babel": {"presets": ["@babel/react"]}
