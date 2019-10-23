@@ -1,3 +1,21 @@
+//npm i express pg sequelize express-session
+
+//npm i -D webpack webpack-cli mocha chai react react-dom react-router-dom redux react-redux axios moment redux-thunk babel-loader @babel/core @babel/preset-react supertest
+
+//////////////////////////////////////////////////////////////////////
+//ALL THE IMPORTS THAT I USE
+
+// import { render } from 'react-dom';
+// import React, { Component } from 'react';
+// import { HashRouter, Route, Link, Switch, Redirect, NavLink } from 'react-router-dom';
+// import { createStore, combineReducers, applyMiddleware } from 'redux';
+// import { Provider, connect } from 'react-redux';
+// import thunk from "redux-thunk";
+// import axios from "axios"
+
+//////////////////////////////////////////////////////////////////////
+
+
 // START BY CREATING YOUR DATA SHEETS AND SETUP
   // create index.html, server.js, db.js
   // npm init -y
@@ -30,6 +48,7 @@
 
 
 //  HEROKU
+//    npm install heroku -g
 //    heroku create (name of app)
 //    git remote -v ---will tell you that you have the app in git and heroku
 //git push heroku master --this will push up to heroku and show you how it is doing it
@@ -112,5 +131,8 @@
 
 //REMOVE CDN's
 
-//TYPE npm i react react-dom react-router-dom redux react-redux axios moment --save-dev
+//TYPE npm i react react-dom react-router-dom redux react-redux axios moment redux-thunk --save-dev
 //now delete the route on the top of the html page
+
+
+//////////////////////////////////////////////////////////////////////
