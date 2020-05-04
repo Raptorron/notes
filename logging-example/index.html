@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src='/dist/main.js' defer></script>
+    <style>
+body {
+  font-family: verdana;
+}
+button, input {
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.error {
+  color: red;
+}
+
+form {
+  margin: 0 25%;
+  width: 50%;
+  border: solid 1px black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+form > div{
+  margin: 1rem;
+  display: flex;
+}
+
+form > div > * {
+  flex: 1;
+}
+.error {
+  color: red
+}
+    </style>
+  </head>
+  <body>
+    <div id='root'></div>
+  </body>
+</html>
+
